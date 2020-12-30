@@ -1,0 +1,33 @@
+body {
+	font-family: sans-serif;
+	background-color: purple;
+	color: white;
+}
+
+.bg-img {
+	left: 300px;
+}
+
+.grid-container {
+	display: grid;
+	width: 1000px;
+	height: 500px;
+	grid-template-columns: repeat(2 , 1fr);
+	grid-template-rows: repeat(3 , 1fr);
+	/**/
+	position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.logo {
+	grid-column: 1 / 4;
+}
+
+.right-info {
+	grid-column: 2 / 4;
+	height: 500px;
+}
+
+footer
